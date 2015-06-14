@@ -1,6 +1,6 @@
 {
   "name": "syntusk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Highlight.js optimized for browserify and tusk.",
   "author": "Dylan Piercey <pierceydylan@gmail.com>",
   "scripts": {
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "coffee-script": "^1.9.3",
+    "cssmin": "^0.4.3",
     "gulp": "^3.9.0",
     "highlight.js": "^8.6.0"
   }
