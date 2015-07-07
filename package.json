@@ -1,11 +1,13 @@
 {
   "name": "syntusk",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Highlight.js optimized for browserify and tusk.",
   "author": "Dylan Piercey <pierceydylan@gmail.com>",
+  "licence": "MIT",
   "main": "lib/index.js",
   "scripts": {
-    "postinstall": "node_modules/.bin/gulp build"
+    "build": "npm install gulp && gulp build",
+    "postinstall": "npm install gulp && gulp build"
   },
   "peerDependencies": {
     "tusk": "0.x"

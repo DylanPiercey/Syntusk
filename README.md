@@ -24,6 +24,7 @@ var XML = require('syntux/xml');
 var CSS = require('syntux/css');
 var JS = require('syntux/javascript');
 
+// To access the underlying hljs simply require("syntusk").
 // Use them in a component.
 var MyComponent = function () {
     return (
