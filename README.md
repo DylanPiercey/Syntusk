@@ -16,8 +16,8 @@ npm install syntusk
 
 # Example
 ```javascript
-// Require a style. (Returns a TUSK style element).
-var Theme = require('syntusk/style/solarized_dark');
+// Require a style. (Returns a css string).
+var theme = require('syntusk/style/solarized_dark');
 
 // Require the highlighters.
 var XML = require('syntusk/xml');
@@ -29,7 +29,8 @@ var JS = require('syntusk/javascript');
 var MyComponent = function () {
     return (
         <div>
-            { Theme }
+            <style innerHTML={ theme }/>
+
             <XML>
                 {'<a href="example.html"> Click me </a>'}
             </XML>
