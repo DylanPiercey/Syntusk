@@ -16,7 +16,7 @@ npm install syntusk
 
 # Example
 ```javascript
-// Require a style. (Returns a style TUSK element).
+// Require a style. (Returns a TUSK style element).
 var Theme = require('syntusk/style/solarized_dark');
 
 // Require the highlighters.
