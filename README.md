@@ -17,12 +17,12 @@ npm install syntusk
 # Example
 ```javascript
 // Require a style. (Returns a style TUSK element).
-var Theme = require('syntux/style/solarized_dark');
+var Theme = require('syntusk/style/solarized_dark');
 
 // Require the highlighters.
-var XML = require('syntux/xml');
-var CSS = require('syntux/css');
-var JS = require('syntux/javascript');
+var XML = require('syntusk/xml');
+var CSS = require('syntusk/css');
+var JS = require('syntusk/javascript');
 
 // To access the underlying hljs simply require("syntusk").
 // Use them in a component.

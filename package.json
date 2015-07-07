@@ -1,6 +1,6 @@
 {
   "name": "syntusk",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Highlight.js optimized for browserify and tusk.",
   "author": "Dylan Piercey <pierceydylan@gmail.com>",
   "licence": "MIT",
