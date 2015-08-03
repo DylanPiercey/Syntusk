@@ -10,7 +10,7 @@
     "postinstall": "npm install gulp && gulp build"
   },
   "peerDependencies": {
-    "tusk": "0.3.x"
+    "tusk": "0.x"
   },
   "dependencies": {
     "coffee-script": "^1.9.3",
